@@ -3,7 +3,7 @@ With CineRevs you can search quickly for series and movies including infos about
 
 Built:
 - Swift 5
-- Xcode 13.1 
+- Xcode 13 
 
 Storyboard & Autolayout:
 - MVC
