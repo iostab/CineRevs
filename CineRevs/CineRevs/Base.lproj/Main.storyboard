@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tr1-mn-atT">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CineRevs" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,10 +19,107 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Eom-eM-SWU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="220" y="-18"/>
+            <point key="canvasLocation" x="-2756" y="348"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Iae-5l-pNb">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="tr1-mn-atT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hES-F9-JOR">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="hlq-gr-syZ"/>
+                        <segue destination="cgH-Lg-E4i" kind="relationship" relationship="viewControllers" id="Vn6-z2-JkH"/>
+                        <segue destination="kO2-Qe-bcy" kind="relationship" relationship="viewControllers" id="95j-BB-Dfu"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dFh-eI-nmM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1820" y="-423"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="iBl-WY-ei9">
+            <objects>
+                <viewController id="cgH-Lg-E4i" customClass="ViewController" customModule="CineRevs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tgc-FV-jlA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="A1f-Kr-V8d"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="6ff-Lb-WNA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eoq-Fm-Zcu" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-894" y="347"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="G3z-BM-F4q">
+            <objects>
+                <viewController id="kO2-Qe-bcy" customClass="ViewController" customModule="CineRevs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yK3-Vg-0bT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="P5h-AU-CbA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="IFn-wc-AbN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MFN-7E-wHQ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1820" y="347"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zlF-eG-aKS">
+            <objects>
+                <viewController id="rSA-w2-yK8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZMM-Pr-pxp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="jd9-Qs-Hv3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zB7-fW-nho" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-895" y="1033"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="00u-eZ-V4X">
+            <objects>
+                <viewController id="g2c-T7-Q2y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wQZ-4t-OuN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="SrP-yv-oIW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hfY-ph-CA6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2756" y="1032"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="frj-XX-CbL">
+            <objects>
+                <viewController id="fvd-BC-NLf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vgw-2Q-1ds">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Bal-K0-OUo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i4i-Zb-MI4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1820" y="1032"/>
         </scene>
     </scenes>
     <resources>
